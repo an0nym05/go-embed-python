@@ -10,7 +10,7 @@ You really only have to depend on this library and invoke it as follows:
 
 ```go
 import (
-	"github.com/kluctl/go-embed-python/python"
+	"github.com/an0nym05/go-embed-python/python"
 	"os"
 )
 
@@ -66,7 +66,7 @@ To do this, create a simple generator application inside your application/librar
 package main
 
 import (
-	"github.com/kluctl/go-embed-python/pip"
+	"github.com/an0nym05/go-embed-python/pip"
 )
 
 func main() {
