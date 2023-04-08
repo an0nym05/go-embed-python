@@ -2,13 +2,14 @@ package python
 
 import (
 	"fmt"
-	"github.com/kluctl/go-embed-python/embed_util"
-	"github.com/kluctl/go-embed-python/python/internal/data"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"runtime"
 	"strings"
+
+	"github.com/an0nym05/go-embed-python/embed_util"
+	"github.com/an0nym05/go-embed-python/python/internal/data"
 )
 
 type EmbeddedPython struct {

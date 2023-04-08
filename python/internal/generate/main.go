@@ -2,16 +2,17 @@ package main
 
 import (
 	"fmt"
-	"github.com/gobwas/glob"
-	"github.com/klauspost/compress/zstd"
-	"github.com/kluctl/go-embed-python/embed_util"
-	"github.com/kluctl/go-embed-python/internal"
-	log "github.com/sirupsen/logrus"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
 	"sync"
+
+	"github.com/an0nym05/go-embed-python/embed_util"
+	"github.com/an0nym05/go-embed-python/internal"
+	"github.com/gobwas/glob"
+	"github.com/klauspost/compress/zstd"
+	log "github.com/sirupsen/logrus"
 )
 
 // versions taken from https://github.com/indygreg/python-build-standalone/releases/

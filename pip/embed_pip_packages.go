@@ -2,13 +2,14 @@ package pip
 
 import (
 	"fmt"
-	"github.com/kluctl/go-embed-python/embed_util"
-	"github.com/kluctl/go-embed-python/internal"
-	"github.com/kluctl/go-embed-python/python"
 	"math/rand"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/an0nym05/go-embed-python/embed_util"
+	"github.com/an0nym05/go-embed-python/internal"
+	"github.com/an0nym05/go-embed-python/python"
 )
 
 func CreateEmbeddedPipPackagesForKnownPlatforms(requirementsFile string, targetDir string) error {
